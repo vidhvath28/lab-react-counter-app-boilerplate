@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button{
+  padding:7px 17px 7px 17px;
+  background-color: white;
+  border-radius: 3px;
+  color: rgb(16, 1, 45);
+  margin-right: 20px;
+  border: 1px solid black;
+  font-size: large;
+  font-weight: 600;
+}
+button:hover {
+  background-color: rgb(16, 1, 45);
+  color: white;
+}
